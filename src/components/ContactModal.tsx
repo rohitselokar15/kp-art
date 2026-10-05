@@ -34,7 +34,8 @@ export const ContactModal: React.FC<ContactModalProps> = ({
     ? `Hello, I saw your artwork "${inquiredArtwork.title}" (${inquiredArtwork.category}) on your portfolio and would like to inquire about it.`
     : 'Hello, I came across your art portfolio and would like to inquire about custom Ganesh idols, rangoli, or paintings.';
 
-  const whatsappUrl = `https://wa.me/919823000000?text=${encodeURIComponent(whatsappMessage)}`;
+  const whatsappNumber = ARTIST_INFO.contact.phone.replace(/\D/g, '');
+  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
   const handleCopyPhone = () => {
     navigator.clipboard.writeText(ARTIST_INFO.contact.phone);

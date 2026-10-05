@@ -9,6 +9,7 @@ import { Footer } from './components/Footer';
 import { CategoryPage } from './components/CategoryPage';
 import { ArtworkLightbox } from './components/ArtworkLightbox';
 import { ContactModal } from './components/ContactModal';
+import { Chatbot } from './components/Chatbot';
 import { Artwork } from './data/artworks';
 
 export default function App() {
@@ -136,6 +137,8 @@ export default function App() {
         }}
         inquiredArtwork={inquiredArtwork}
       />
+
+      <Chatbot onOpenContact={() => handleOpenContact(null)} />
     </div>
   );
 }
