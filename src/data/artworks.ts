@@ -22,7 +22,7 @@ export interface CategoryInfo {
 }
 
 export const ARTIST_INFO = {
-  brandName: 'ARTISTRY',
+  brandName: 'Kesar Art Work',
   location: 'Nagpur, Maharashtra, India',
   city: 'Nagpur',
   state: 'Maharashtra',
@@ -34,11 +34,11 @@ export const ARTIST_INFO = {
   aboutBio:
     'From handcrafted Ganesh idols to colourful rangoli and paintings, each creation is made with care and a personal artistic touch. Based in Nagpur, the work can also be created according to individual ideas and requirements.',
   contact: {
-    phone: '+91 98230 00000',
-    whatsapp: 'https://wa.me/919823000000?text=Hello%2C%20I%20came%20across%20your%20art%20portfolio%20and%20would%20like%20to%20know%20more%20about%20your%20work.',
-    instagram: 'https://instagram.com',
-    instagramHandle: '@artistry.nagpur',
-    email: 'contact@artistryportfolio.com',
+    phone: '+91 90030 00000',
+    whatsapp: 'https://wa.me/919003000000?text=Hello%2C%20I%20came%20across%20your%20art%20portfolio%20and%20would%20like%20to%20know%20more%20about%20your%20work.',
+    instagram: 'https://instagram.com/kesar_artwork',
+    instagramHandle: '@kesar_artwork',
+    email: 'contact@kesarartwork.com',
   },
 };
 
